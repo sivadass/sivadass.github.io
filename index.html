@@ -27,11 +27,27 @@
                 align-items: center;
                 -webkit-align-items: center;
             }
-            .text-center{
-                text-align: center;
-            }
             .container{
                 padding: 98px 16px;
+                text-align: center;
+                color: #999;
+            }
+            footer{
+                text-align: center;
+                color: #666;
+                font-size: 13px;
+            }
+            @media (max-width: 480px){
+                header{
+                    flex-direction: column;
+                    -webkit-flex-direction: column;
+                }
+                header a{
+                    margin-bottom: 16px;
+                }
+                .container{
+                    padding: 32px 16px;
+                }
             }
         </style>
     </head>
@@ -49,7 +65,7 @@
         </div>
         <footer>
             <p class="copyright text-center">
-                &copy; Sivadass 2017 - 2018.
+                &copy; <a href="https://www.sivadass.in" target="_blank" title="Freelance Web Designer">Sivadass</a> 2017 - 2018.
             </p>
         </footer>
         <script>
