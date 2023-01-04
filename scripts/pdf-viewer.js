@@ -1,5 +1,10 @@
 var viewerConfig = {
-  embedMode: "SIZED_CONTAINER",
+  embedMode: "FULL_WINDOW",
+  defaultViewMode: "FIT_WIDTH",
+  showFullScreen: false,
+  showAnnotationTools: false,
+  showThumbnails: false,
+  showBookmarks: false,
 };
 
 /* Wait for Adobe Document Services PDF Embed API to be ready */
